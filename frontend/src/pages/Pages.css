@@ -1,0 +1,43 @@
+.page-container {
+  padding: 2rem;
+}
+
+.page-container h2 {
+  color: #4a6bff;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+}
